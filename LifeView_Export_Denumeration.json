@@ -1,0 +1,1224 @@
+{
+    "act1Fault": {
+        "NO": 0,
+        "YES": 1
+    },
+    "act1Select": {
+        "A": 0,
+        "B": 1
+    },
+    "act2Fault": {
+        "NO": 0,
+        "YES": 1
+    },
+    "act2Select": {
+        "A": 0,
+        "B": 1
+    },
+    "airConCtl": {
+        "OFF": 0,
+        "ON": 1
+    },
+    "airConSwitch": {
+        "OFF": 0,
+        "ON": 1
+    },
+    "alsCal": {
+        "CAL1": 1,
+        "CAL2": 2,
+        "CAL3": 3,
+        "CAL4": 4,
+        "CAL5": 5,
+        "CAL6": 6,
+        "CAL7": 7,
+        "CAL8": 8,
+        "OFF": 0,
+        "START": 100
+    },
+    "alsEnableSwitch": {
+        "OFF": 0,
+        "ON": 1
+    },
+    "alsPlenumDamping": {
+        "OFF": 0,
+        "ON": 1
+    },
+    "alsRecovery": {
+        "OFF": 0,
+        "ON": 1
+    },
+    "alsSelect": {
+        "ALS01": 0,
+        "ALS02": 1,
+        "ALS03": 2,
+        "ALS04": 3,
+        "ALS05": 4,
+        "ALS06": 5,
+        "ALS07": 6,
+        "ALS08": 7,
+        "ALS09": 8,
+        "ALS10": 9,
+        "ALS11": 10,
+        "ALS12": 11
+    },
+    "alsSelectSwitch": {
+        "ALS01": 0,
+        "ALS02": 1,
+        "ALS03": 2,
+        "ALS04": 3,
+        "ALS05": 4,
+        "ALS06": 5,
+        "ALS07": 6,
+        "ALS08": 7,
+        "ALS09": 8,
+        "ALS10": 9,
+        "ALS11": 10,
+        "ALS12": 11
+    },
+    "alsState": {
+        "DISABLED": 100,
+        "OFF": 0,
+        "ON": 2,
+        "START": 1,
+        "SW_SHUTDOWN": 3,
+        "TPS_SHUTDOWN": 4,
+        "TPS_TIMEOUT": 5
+    },
+    "alternatorState": {
+        "OFF": 0,
+        "ON": 1,
+        "RECOVERY": 2
+    },
+    "autoStartState": {
+        "ARMED": 2,
+        "CLUTCH": 6,
+        "CRANKING": 5,
+        "ENABLED": 1,
+        "FAILED": 4,
+        "OFF": 0,
+        "STARTING": 3
+    },
+    "brakeLight": {
+        "OFF": 0,
+        "ON": 1
+    },
+    "calDownSwitch": {
+        "OFF": 0,
+        "ON": 1
+    },
+    "calOverrideActive": {
+        "ACTIVE": 1,
+        "IDLE": 0
+    },
+    "calOverrideArmed": {
+        "ACTIVE": 1,
+        "IDLE": 0
+    },
+    "calOverrideDecision": {
+        "ALREADY ACTIVE": 1,
+        "ARM": 12,
+        "FCY LIMIT ACTIVE": 10,
+        "GEAR TOO LOW": 3,
+        "LATG TOO HIGH": 5,
+        "NO TIME LEFT": 7,
+        "NO USES LEFT": 6,
+        "NOT PERMITTED": 8,
+        "OK": 0,
+        "PIT LIMIT ACTIVE": 9,
+        "PPS TOO LOW": 11,
+        "RE-USE TOO SOON": 2,
+        "RPM TOO LOW": 4
+    },
+    "calOverridePermitted": {
+        "NO": 0,
+        "YES": 1
+    },
+    "calOverrideSwitch": {
+        "OFF": 0,
+        "ON": 1
+    },
+    "calOverrideSwitchA": {
+        "OFF": 0,
+        "ON": 1
+    },
+    "calOverrideSwitchB": {
+        "OFF": 0,
+        "ON": 1
+    },
+    "calSelect": {
+        "CAL01": 0,
+        "CAL02": 1,
+        "CAL03": 2,
+        "CAL04": 3,
+        "CAL05": 4,
+        "CAL06": 5,
+        "CAL07": 6,
+        "CAL08": 7,
+        "CAL09": 8,
+        "CAL10": 9,
+        "CAL11": 10,
+        "CAL12": 11
+    },
+    "calSwitch": {
+        "CAL01": 0,
+        "CAL02": 1,
+        "CAL03": 2,
+        "CAL04": 3,
+        "CAL05": 4,
+        "CAL06": 5,
+        "CAL07": 6,
+        "CAL08": 7,
+        "CAL09": 8,
+        "CAL10": 9,
+        "CAL11": 10,
+        "CAL12": 11
+    },
+    "calUpSwitch": {
+        "OFF": 0,
+        "ON": 1
+    },
+    "calibrationState": {
+        "LIVE EDITS ARE ACTIVE": 1,
+        "RUNNING AS PROGRAMMED": 0
+    },
+    "changeLightState": {
+        "OFF": 0,
+        "ON": 1,
+        "TIMEOUT": 2
+    },
+    "cllCylOffDis1": {
+        "NO": 0,
+        "YES": 1
+    },
+    "cllCylOffDis2": {
+        "NO": 0,
+        "YES": 1
+    },
+    "cllEnable": {
+        "BANK1": 1,
+        "BANK2": 2,
+        "BOTH": 3,
+        "DISABLED": 0
+    },
+    "clutchSwitch": {
+        "OFF": 0,
+        "ON": 1
+    },
+    "cruiseActive": {
+        "ACTIVE": 1,
+        "IDLE": 0
+    },
+    "cruiseDisableCause": {
+        "BRAKING": 6,
+        "CAL OVERRIDE SWITCH": 31,
+        "CAL SELECT": 14,
+        "CAN LINK": 30,
+        "CLUTCH": 8,
+        "CRUISE SWITCH": 1,
+        "DBW SELECT": 13,
+        "DRIVER PPS": 10,
+        "ENGINE SPEED ERROR": 11,
+        "ENGINE SPEED HIGH": 20,
+        "ENGINE SPEED LOW": 19,
+        "ENGINE SPEED NOT STABLE": 25,
+        "GEAR CHANGE": 9,
+        "GEAR DISABLE": 23,
+        "IDLE CONTROL ACTIVE": 29,
+        "LATERAL ACCELERATION": 3,
+        "LAUNCH CONTROL": 15,
+        "LIMP MODE": 27,
+        "LONGITUDINAL ACCELERATION": 4,
+        "NITROUS ACTIVE": 28,
+        "NONE": 0,
+        "PEDAL POSITION NOT STABLE": 24,
+        "PEDAL SENSOR FAULT": 17,
+        "PPS HIGH": 18,
+        "STEERING INPUT": 2,
+        "THROTTLE SENSOR FAULT": 16,
+        "TORQUE CONTROL": 12,
+        "VEHICLE SPEED HIGH": 22,
+        "VEHICLE SPEED LOW": 21,
+        "VEHICLE SPEED NOT STABLE": 26,
+        "WHEEL SPIN": 7,
+        "YAW": 5
+    },
+    "cruiseDnSwitch": {
+        "OFF": 0,
+        "ON": 1
+    },
+    "cruiseSwitch": {
+        "OFF": 0,
+        "ON": 1
+    },
+    "cruiseUpSwitch": {
+        "OFF": 0,
+        "ON": 1
+    },
+    "cylLearnEnable1": {
+        "DISABLED": 0,
+        "ENABLED": 1
+    },
+    "cylLearnEnable2": {
+        "DISABLED": 0,
+        "ENABLED": 1
+    },
+    "dbw1Select": {
+        "ALS MIN": 5,
+        "AUTO SHIFT MAX": 16,
+        "CAL SWITCH MAX": 10,
+        "CM MAX": 20,
+        "DIP MAX": 13,
+        "DRV MIN": 21,
+        "ENGINE MODE MIN": 4,
+        "GEAR BLIP MIN": 12,
+        "GEAR CUT MLT": 3,
+        "GEAR LEARN": 18,
+        "IDLE MIN": 6,
+        "LAUNCH MAX": 14,
+        "LAUNCH MIN": 7,
+        "LIMP MODE MAX": 9,
+        "LIMP MODE MIN": 2,
+        "MAP MAX": 15,
+        "NORMAL": 1,
+        "OFF": 0,
+        "PIT LIMIT MAX": 11,
+        "POPOFF RESEAT": 19,
+        "REV LIMIT": 17,
+        "START MAX": 8,
+        "TEST OVERRIDE": 23,
+        "TRQ MAX": 24,
+        "WGC MAX": 22
+    },
+    "dbw2Select": {
+        "ALS MIN": 5,
+        "AUTO SHIFT MAX": 16,
+        "CAL SWITCH MAX": 10,
+        "CM MAX": 20,
+        "DIP MAX": 13,
+        "DRV MIN": 21,
+        "ENGINE MODE MIN": 4,
+        "GEAR BLIP MIN": 12,
+        "GEAR CUT MLT": 3,
+        "GEAR LEARN": 18,
+        "IDLE MIN": 6,
+        "LAUNCH MAX": 14,
+        "LAUNCH MIN": 7,
+        "LIMP MODE MAX": 9,
+        "LIMP MODE MIN": 2,
+        "MAP MAX": 15,
+        "NORMAL": 1,
+        "OFF": 0,
+        "PIT LIMIT MAX": 11,
+        "POPOFF RESEAT": 19,
+        "REV LIMIT": 17,
+        "START MAX": 8,
+        "TEST OVERRIDE": 23,
+        "TRQ MAX": 24,
+        "WGC MAX": 22
+    },
+    "dpcMode": {
+        "ACTIVE": 1,
+        "BRAKING": 2,
+        "HAND BRAKE": 4,
+        "LEFT FOOT BRAKING": 3,
+        "OFF": 0
+    },
+    "drvSpdFault": {
+        "NO": 0,
+        "YES": 1
+    },
+    "egrState": {
+        "CLOSE": 4,
+        "CLOSEHOLD": 5,
+        "DISABLED": 100,
+        "OFF": 0,
+        "OPEN": 1,
+        "OPENHOLD": 2,
+        "TIMEOUT": 3
+    },
+    "enableSwitch": {
+        "OFF": 0,
+        "ON": 1
+    },
+    "enableSwitchA": {
+        "OFF": 0,
+        "ON": 1
+    },
+    "enableSwitchB": {
+        "OFF": 0,
+        "ON": 1
+    },
+    "enableSwitchC": {
+        "OFF": 0,
+        "ON": 1
+    },
+    "engineEnable": {
+        "ACT TRIP": 108,
+        "AUTO IN R/D": 13,
+        "AUTO START": 8,
+        "BPD/TPS TRIP": 109,
+        "CAL SWITCH": 14,
+        "CAN ENABLE OFF": 6,
+        "CCP TRIP": 101,
+        "DATE/TIME TRIP": 105,
+        "DBW TRIP": 110,
+        "DIP START": 10,
+        "ECP TRIP": 111,
+        "ECT TRIP": 103,
+        "ENABLE SWITCH OFF": 1,
+        "EOP START": 5,
+        "EOP TRIP": 100,
+        "EOT TRIP": 102,
+        "FP START": 9,
+        "FP TRIP": 104,
+        "LEAN TRIP": 107,
+        "OK": 0,
+        "PDU ISSUE": 12,
+        "PPS EXTERNAL": 16,
+        "PPS START": 15,
+        "SENSOR WARNING LEVEL": 11,
+        "SLAVE 1 COMMS OUT": 2,
+        "SLAVE 2 COMMS OUT": 3,
+        "TPS START": 7,
+        "VBAT HIGH": 4,
+        "VBAT TRIP": 106
+    },
+    "fan1": {
+        "DISABLED": 100,
+        "OFF": 0,
+        "ON": 1,
+        "RUN ON": 2
+    },
+    "fan1Switch": {
+        "OFF": 0,
+        "ON": 1
+    },
+    "fan2": {
+        "DISABLED": 100,
+        "OFF": 0,
+        "ON": 1,
+        "RUN ON": 2
+    },
+    "fan4": {
+        "DISABLED": 100,
+        "OFF": 0,
+        "ON": 1,
+        "RUN ON": 2
+    },
+    "fan5": {
+        "DISABLED": 100,
+        "OFF": 0,
+        "ON": 1,
+        "RUN ON": 2
+    },
+    "fcyBoostActive": {
+        "NO": 0,
+        "YES": 1
+    },
+    "fcyBoostSwitch": {
+        "OFF": 0,
+        "ON": 1
+    },
+    "fcyLightOn": {
+        "OFF": 0,
+        "ON": 1
+    },
+    "fcyLimitActive": {
+        "NO": 0,
+        "YES": 1
+    },
+    "fcySwitch": {
+        "OFF": 0,
+        "ON": 1
+    },
+    "flSpeedFault": {
+        "NO": 0,
+        "YES": 1
+    },
+    "flSpeedSelect": {
+        "A": 0,
+        "B": 1
+    },
+    "fpoSwitch": {
+        "OFF": 0,
+        "ON": 1
+    },
+    "frSpeedFault": {
+        "NO": 0,
+        "YES": 1
+    },
+    "frSpeedSelect": {
+        "A": 0,
+        "B": 1
+    },
+    "fuelConsSwitch": {
+        "OFF": 0,
+        "ON": 1
+    },
+    "fuelPump1": {
+        "OFF": 0,
+        "ON": 1
+    },
+    "fuelPump2": {
+        "OFF": 0,
+        "ON": 1
+    },
+    "fuelPump3": {
+        "OFF": 0,
+        "ON": 1
+    },
+    "fuelSplitForce": {
+        "OFF": 0,
+        "PRIMARY": 1,
+        "SECONDARY": 2
+    },
+    "gcSelect": {
+        "GC01": 0,
+        "GC02": 1,
+        "GC03": 2,
+        "GC04": 3,
+        "GC05": 4,
+        "GC06": 5,
+        "GC07": 6,
+        "GC08": 7,
+        "GC09": 8,
+        "GC10": 9,
+        "GC11": 10,
+        "GC12": 11
+    },
+    "gcSelectSwitch": {
+        "GC01": 0,
+        "GC02": 1,
+        "GC03": 2,
+        "GC04": 3,
+        "GC05": 4,
+        "GC06": 5,
+        "GC07": 6,
+        "GC08": 7,
+        "GC09": 8,
+        "GC10": 9,
+        "GC11": 10,
+        "GC12": 11
+    },
+    "gear": {
+        "EIGHTH": 8,
+        "FIFTH": 5,
+        "FIRST": 1,
+        "FOURTH": 4,
+        "NEUTRAL": 0,
+        "REVERSE": -1,
+        "SECOND": 2,
+        "SEVENTH": 7,
+        "SIXTH": 6,
+        "THIRD": 3,
+        "UNKNOWN": 99
+    },
+    "gearBlipRequest": {
+        "NO": 0,
+        "YES": 1
+    },
+    "gearBlipState": {
+        "ACTIVE": 100,
+        "CLEARING": 2,
+        "DISABLED": 0,
+        "DOG PREP": 102,
+        "IDLE": 1,
+        "MASKED": 3,
+        "RETURN": 4,
+        "TRAIL": 101
+    },
+    "gearCutRequest": {
+        "NO": 0,
+        "YES": 1
+    },
+    "gearCutSecInjDis": {
+        "NO": 0,
+        "YES": 1
+    },
+    "gearCutState": {
+        "ACTIVE": 100,
+        "CL DOG KICK": 104,
+        "CL MAIN": 103,
+        "CLEARING": 2,
+        "DISABLED": 0,
+        "DOG PREP": 106,
+        "IDLE": 1,
+        "LEADING": 101,
+        "MASKED": 3,
+        "OL MAIN": 102,
+        "RAMP IN": 105,
+        "TRAILING": 107
+    },
+    "gearPreBlipState": {
+        "ACTIVE": 2,
+        "ARMED": 1,
+        "IDLE": 0,
+        "TRAIL": 3
+    },
+    "gearShiftDirection": {
+        "DOWN": 1,
+        "UP": 0
+    },
+    "gearShiftState": {
+        "AUTO CLEARING": 4,
+        "AUTO DOWNSHIFT": 3,
+        "AUTO DOWNSHIFT STACKED": 7,
+        "AUTO IDLE": 1,
+        "AUTO MASKED": 6,
+        "AUTO POSITIVE RETURN": 5,
+        "AUTO UPSHIFT": 2,
+        "DISABLED": 100,
+        "MANUAL": 0
+    },
+    "gpsSpeedFault": {
+        "NO": 0,
+        "YES": 1
+    },
+    "handbrakeSwitch": {
+        "OFF": 0,
+        "ON": 1
+    },
+    "heatedScreenState": {
+        "OFF": 0,
+        "ON": 1
+    },
+    "idleControlActive": {
+        "NO": 0,
+        "YES": 1
+    },
+    "ignSafetyActive": {
+        "ACTIVE": 1,
+        "IDLE": 0
+    },
+    "knockControlActive": {
+        "ACTIVE": 1,
+        "IDLE": 0
+    },
+    "knockDetectActive": {
+        "ACTIVE": 1,
+        "IDLE": 0
+    },
+    "knockNoSignalActive": {
+        "ACTIVE": 1,
+        "IDLE": 0
+    },
+    "knockPreIgnFlag": {
+        "FALSE": 0,
+        "TRUE": 1
+    },
+    "knockSevereControlEnabled": {
+        "NO": 0,
+        "YES": 1
+    },
+    "knockWarnLight": {
+        "OFF": 0,
+        "ON": 1
+    },
+    "latGNegState": {
+        "OFF": 0,
+        "ON": 1
+    },
+    "latGPosState": {
+        "OFF": 0,
+        "ON": 1
+    },
+    "launchExitState": {
+        "ACTIVE": 1,
+        "IDLE": 0
+    },
+    "launchInStage": {
+        "NO": 0,
+        "YES": 1
+    },
+    "launchSecInjDis": {
+        "NO": 0,
+        "YES": 1
+    },
+    "launchSelect": {
+        "LCH01": 0,
+        "LCH02": 1,
+        "LCH03": 2,
+        "LCH04": 3,
+        "LCH05": 4,
+        "LCH06": 5,
+        "LCH07": 6,
+        "LCH08": 7,
+        "LCH09": 8,
+        "LCH10": 9,
+        "LCH11": 10,
+        "LCH12": 11
+    },
+    "launchSelectSwitch": {
+        "LCH01": 0,
+        "LCH02": 1,
+        "LCH03": 2,
+        "LCH04": 3,
+        "LCH05": 4,
+        "LCH06": 5,
+        "LCH07": 6,
+        "LCH08": 7,
+        "LCH09": 8,
+        "LCH10": 9,
+        "LCH11": 10,
+        "LCH12": 11
+    },
+    "launchState": {
+        "CLEARING": 2,
+        "DISABLED": 100,
+        "OFF": 0,
+        "ON": 1
+    },
+    "launchStateX": {
+        "CLEARING": 2,
+        "DISABLED": 100,
+        "OFF": 0,
+        "ON": 1,
+        "STAGE": 50
+    },
+    "launchSwitch": {
+        "OFF": 0,
+        "ON": 1
+    },
+    "limpMode": {
+        "ACT TRIP": 112,
+        "AUTO TRANS": 5,
+        "CCP TRIP": 101,
+        "ECP TRIP": 113,
+        "ECT COLD": 2,
+        "ECT TRIP": 104,
+        "EOP TRIP": 100,
+        "EOT COLD": 3,
+        "EOT TRIP": 103,
+        "FP TRIP": 105,
+        "KNOCK SHUTDOWN": 102,
+        "LEAN TRIP": 111,
+        "LIMP SWITCH ON": 1,
+        "OFF": 0,
+        "PREIGN SHUTDOWN": 106,
+        "SENSOR WARNING LEVEL": 4,
+        "TIME ON LOAD LIMIT": 107,
+        "TRQ LIM TRIP": 108,
+        "VBAT TRIP": 110,
+        "VVT FAIL": 109
+    },
+    "limpSwitch": {
+        "OFF": 0,
+        "ON": 1
+    },
+    "logMarkerSwitch": {
+        "OFF": 0,
+        "ON": 1
+    },
+    "loggingActive": {
+        "ACTIVE": 1,
+        "IDLE": 0
+    },
+    "loggingDisabledByPC": {
+        "NO": 0,
+        "YES": 1
+    },
+    "loggingSwitch": {
+        "OFF": 0,
+        "ON": 1
+    },
+    "lowEopLight": {
+        "OFF": 0,
+        "ON": 1
+    },
+    "lowLoadState": {
+        "OFF": 0,
+        "ON": 1
+    },
+    "lowVBatLight": {
+        "OFF": 0,
+        "ON": 1
+    },
+    "m4AbsActive": {
+        "OFF": 0,
+        "ON": 1
+    },
+    "m4AbsLamp": {
+        "OFF": 0,
+        "ON": 1
+    },
+    "m4BrakeLightSw": {
+        "OFF": 0,
+        "ON": 1
+    },
+    "m4EbdLamp": {
+        "OFF": 0,
+        "ON": 1
+    },
+    "map1Fault": {
+        "NO": 0,
+        "YES": 1
+    },
+    "map1Select": {
+        "A": 0,
+        "B": 1
+    },
+    "map2Fault": {
+        "NO": 0,
+        "YES": 1
+    },
+    "map2Select": {
+        "A": 0,
+        "B": 1
+    },
+    "masterState1": {
+        "ACTIVE": 5,
+        "CONFIG": 3,
+        "FAIL": 6,
+        "FIND": 2,
+        "FREQ-CFG-RX": 12,
+        "FREQ-CFG-TX": 11,
+        "IDLE": 0,
+        "IN-CFG-RX": 8,
+        "IN-CFG-TX": 7,
+        "OUT-CFG-RX": 10,
+        "OUT-CFG-TX": 9,
+        "PRIME": 4,
+        "REQUIRED": 1
+    },
+    "masterState2": {
+        "ACTIVE": 5,
+        "CONFIG": 3,
+        "FAIL": 6,
+        "FIND": 2,
+        "FREQ-CFG-RX": 12,
+        "FREQ-CFG-TX": 11,
+        "IDLE": 0,
+        "IN-CFG-RX": 8,
+        "IN-CFG-TX": 7,
+        "OUT-CFG-RX": 10,
+        "OUT-CFG-TX": 9,
+        "PRIME": 4,
+        "REQUIRED": 1
+    },
+    "multiFan1": {
+        "DISABLED": 100,
+        "OFF": 0,
+        "ON": 1,
+        "RUN ON": 2
+    },
+    "multiFan2": {
+        "DISABLED": 100,
+        "OFF": 0,
+        "ON": 1,
+        "RUN ON": 2
+    },
+    "n2oCal": {
+        "CAL1": 1,
+        "CAL2": 2,
+        "CAL3": 3,
+        "CAL4": 4,
+        "OFF": 0
+    },
+    "n2oHeat": {
+        "OFF": 0,
+        "ON": 1
+    },
+    "n2oSwitch": {
+        "OFF": 0,
+        "ON": 1
+    },
+    "neutralLight": {
+        "OFF": 0,
+        "ON": 1
+    },
+    "phasedStartOnly": {
+        "NO": 0,
+        "YES": 1
+    },
+    "pitLimitActive": {
+        "ACTIVE": 1,
+        "ACTIVE_IN": 3,
+        "ACTIVE_OUT": 2,
+        "IDLE": 0
+    },
+    "pitSelect": {
+        "PIT01": 0,
+        "PIT02": 1,
+        "PIT03": 2,
+        "PIT04": 3,
+        "PIT05": 4,
+        "PIT06": 5,
+        "PIT07": 6,
+        "PIT08": 7,
+        "PIT09": 8,
+        "PIT10": 9,
+        "PIT11": 10,
+        "PIT12": 11
+    },
+    "pitSelectSwitch": {
+        "PIT01": 0,
+        "PIT02": 1,
+        "PIT03": 2,
+        "PIT04": 3,
+        "PIT05": 4,
+        "PIT06": 5,
+        "PIT07": 6,
+        "PIT08": 7,
+        "PIT09": 8,
+        "PIT10": 9,
+        "PIT11": 10,
+        "PIT12": 11
+    },
+    "pitSwitch": {
+        "OFF": 0,
+        "ON": 1
+    },
+    "ppsClosed": {
+        "CLOSED": 1,
+        "OPEN": 0
+    },
+    "ppsFault": {
+        "NO": 0,
+        "YES": 1
+    },
+    "ppsLearnState": {
+        "ENABLING": 100,
+        "FAILED": 600,
+        "IDLE": 0,
+        "LEARNING": 200,
+        "NOT LEARNED": 700,
+        "SUCCEEDED": 500
+    },
+    "ppsSelect": {
+        "A": 0,
+        "B": 1
+    },
+    "rainLightOn": {
+        "OFF": 0,
+        "ON": 1
+    },
+    "rainLightSwitch": {
+        "OFF": 0,
+        "ON": 1
+    },
+    "refLapClrSwitch": {
+        "OFF": 0,
+        "ON": 1
+    },
+    "revCutActive": {
+        "ACTIVE": 1,
+        "IDLE": 0
+    },
+    "revLimitActive": {
+        "ACTIVE": 1,
+        "IDLE": 0
+    },
+    "reverseDetentSwitch": {
+        "OFF": 0,
+        "ON": 1
+    },
+    "reverseLight": {
+        "OFF": 0,
+        "ON": 1
+    },
+    "rlSpeedFault": {
+        "NO": 0,
+        "YES": 1
+    },
+    "rlSpeedSelect": {
+        "A": 0,
+        "B": 1
+    },
+    "rrSpeedFault": {
+        "NO": 0,
+        "YES": 1
+    },
+    "rrSpeedSelect": {
+        "A": 0,
+        "B": 1
+    },
+    "runMode": {
+        "CRANK": 3,
+        "INITIAL": 0,
+        "PREINJECT": 1,
+        "RUN": 4,
+        "STOP": 2
+    },
+    "safetyMarginSwitch": {
+        "OFF": 0,
+        "ON": 1
+    },
+    "sensorSwitch": {
+        "OFF": 0,
+        "ON": 1
+    },
+    "sensorWarningLevel": {
+        "CRITICAL": 3,
+        "MINOR": 1,
+        "MODERATE": 2,
+        "OK": 0
+    },
+    "sensorWarningLight": {
+        "CRITICAL": 3,
+        "ENGINE ENABLE": 5,
+        "LIMP MODE": 4,
+        "MINOR": 1,
+        "MODERATE": 2,
+        "OK": 0
+    },
+    "slaveState": {
+        "ACTIVE": 1,
+        "IDLE": 0
+    },
+    "startHeater": {
+        "OFF": 0,
+        "ON": 1,
+        "TIMEOUT": 2
+    },
+    "starterEnable": {
+        "CRANK": 3,
+        "DELAY": 1,
+        "DISABLED": 0,
+        "ENABLED": 2,
+        "RUN": 4
+    },
+    "syncFastPhaseEnabled": {
+        "NO": 0,
+        "YES": 1
+    },
+    "syncFault": {
+        "720 SYNC TIMEOUT": 7,
+        "CAM ERROR": 4,
+        "LONG TOOTH GAP": 1,
+        "NONE": 0,
+        "SENSOR SWITCH": 8,
+        "SHORT TOOTH GAP": 2,
+        "TIMER OVERFLOW": 3,
+        "TOOTH TIMEOUT": 6,
+        "UNKNOWN": 5
+    },
+    "syncOmitValidationRev": {
+        "NO": 0,
+        "YES": 1
+    },
+    "syncState": {
+        "360": 2,
+        "720": 3,
+        "STOP": 0,
+        "TURN": 1
+    },
+    "tcDownSwitch": {
+        "OFF": 0,
+        "ON": 1
+    },
+    "tcEnableSwitch": {
+        "OFF": 0,
+        "ON": 1
+    },
+    "tcSelect": {
+        "TC01": 0,
+        "TC02": 1,
+        "TC03": 2,
+        "TC04": 3,
+        "TC05": 4,
+        "TC06": 5,
+        "TC07": 6,
+        "TC08": 7,
+        "TC09": 8,
+        "TC10": 9,
+        "TC11": 10,
+        "TC12": 11
+    },
+    "tcSwitch": {
+        "TC01": 0,
+        "TC02": 1,
+        "TC03": 2,
+        "TC04": 3,
+        "TC05": 4,
+        "TC06": 5,
+        "TC07": 6,
+        "TC08": 7,
+        "TC09": 8,
+        "TC10": 9,
+        "TC11": 10,
+        "TC12": 11
+    },
+    "tcUpSwitch": {
+        "OFF": 0,
+        "ON": 1
+    },
+    "tfcState": {
+        "ACTIVE": 2,
+        "DISABLED": 0,
+        "ENABLED": 1
+    },
+    "tps1Fault": {
+        "NO": 0,
+        "YES": 1
+    },
+    "tps1Select": {
+        "A": 0,
+        "B": 1
+    },
+    "tps2Fault": {
+        "NO": 0,
+        "YES": 1
+    },
+    "tps2Select": {
+        "A": 0,
+        "B": 1
+    },
+    "tpsClosed": {
+        "CLOSED": 1,
+        "OPEN": 0
+    },
+    "trqFuelMltSrc": {
+        "ANTI LAG": 10,
+        "BPD/TPS CUT": 12,
+        "EMISSIONS": 13,
+        "ENGINE ENABLE": 14,
+        "GEAR CUT": 1,
+        "HIGH FUEL PRESSURE": 8,
+        "LAUNCH LIMIT": 9,
+        "MAP LIMIT": 5,
+        "NONE": 0,
+        "OVERRUN": 3,
+        "PIT LIMIT": 4,
+        "REV LIMIT": 2,
+        "TORQUE LIMIT": 11,
+        "TRACTION CONTROL": 7,
+        "TURBO SPEED LIMIT": 6
+    },
+    "trqFuelSevSrc": {
+        "ANTI LAG": 10,
+        "BPD/TPS CUT": 12,
+        "EMISSIONS": 13,
+        "ENGINE ENABLE": 14,
+        "GEAR CUT": 1,
+        "HIGH FUEL PRESSURE": 8,
+        "LAUNCH LIMIT": 9,
+        "MAP LIMIT": 5,
+        "NONE": 0,
+        "OVERRUN": 3,
+        "PIT LIMIT": 4,
+        "REV LIMIT": 2,
+        "TORQUE LIMIT": 11,
+        "TRACTION CONTROL": 7,
+        "TURBO SPEED LIMIT": 6
+    },
+    "trqIgnMaxSrc": {
+        "ANTI LAG": 10,
+        "BPD/TPS CUT": 12,
+        "EMISSIONS": 13,
+        "ENGINE ENABLE": 14,
+        "GEAR CUT": 1,
+        "HIGH FUEL PRESSURE": 8,
+        "LAUNCH LIMIT": 9,
+        "MAP LIMIT": 5,
+        "NONE": 0,
+        "OVERRUN": 3,
+        "PIT LIMIT": 4,
+        "REV LIMIT": 2,
+        "TORQUE LIMIT": 11,
+        "TRACTION CONTROL": 7,
+        "TURBO SPEED LIMIT": 6
+    },
+    "trqIgnRtdSrc": {
+        "ANTI LAG": 10,
+        "BPD/TPS CUT": 12,
+        "EMISSIONS": 13,
+        "ENGINE ENABLE": 14,
+        "GEAR CUT": 1,
+        "HIGH FUEL PRESSURE": 8,
+        "LAUNCH LIMIT": 9,
+        "MAP LIMIT": 5,
+        "NONE": 0,
+        "OVERRUN": 3,
+        "PIT LIMIT": 4,
+        "REV LIMIT": 2,
+        "TORQUE LIMIT": 11,
+        "TRACTION CONTROL": 7,
+        "TURBO SPEED LIMIT": 6
+    },
+    "trqIgnSevSrc": {
+        "ANTI LAG": 10,
+        "BPD/TPS CUT": 12,
+        "EMISSIONS": 13,
+        "ENGINE ENABLE": 14,
+        "GEAR CUT": 1,
+        "HIGH FUEL PRESSURE": 8,
+        "LAUNCH LIMIT": 9,
+        "MAP LIMIT": 5,
+        "NONE": 0,
+        "OVERRUN": 3,
+        "PIT LIMIT": 4,
+        "REV LIMIT": 2,
+        "TORQUE LIMIT": 11,
+        "TRACTION CONTROL": 7,
+        "TURBO SPEED LIMIT": 6
+    },
+    "tuneDownSwitch": {
+        "OFF": 0,
+        "ON": 1
+    },
+    "tuneUpSwitch": {
+        "OFF": 0,
+        "ON": 1
+    },
+    "turbo1Fault": {
+        "NO": 0,
+        "YES": 1
+    },
+    "turbo1Select": {
+        "A": 0,
+        "B": 1
+    },
+    "turbo2Fault": {
+        "NO": 0,
+        "YES": 1
+    },
+    "turbo2Select": {
+        "A": 0,
+        "B": 1
+    },
+    "turboFault": {
+        "NO": 0,
+        "YES": 1
+    },
+    "tyreTypeTcSw": {
+        "DRY": 0,
+        "INTERMEDIATE": 1,
+        "WET": 2
+    },
+    "vehSpdFault": {
+        "NO": 0,
+        "YES": 1
+    },
+    "vehSpdLimp": {
+        "NO": 0,
+        "YES": 1
+    },
+    "vvtState": {
+        "CLOSED LOOP": 2,
+        "DISABLED": 0,
+        "OPEN LOOP": 1
+    },
+    "waterInjection": {
+        "OFF": 0,
+        "ON": 1
+    },
+    "wgPDSelect1": {
+        "MAP": 0,
+        "PRP": 1,
+        "TURBO": 2
+    },
+    "wgPDSelect2": {
+        "MAP": 0,
+        "PRP": 1,
+        "TURBO": 2
+    },
+    "wgcStrategyActive": {
+        "OLD LMP": 0,
+        "STANDARD": 2,
+        "WGP-BASED": 1
+    },
+    "wow": {
+        "OFF": 0,
+        "ON": 1
+    }
+}
