@@ -1,0 +1,7 @@
+db_rel_path: Vehicles\Honda CBR250RR\Data\05_Database
+data_rel_path:
+- Vehicles\Honda CBR250RR\Technical\015 - ELECTRICAL SYSTEM\01_ENGINE_MANAGEMENT\LIFE_RACING_F88R\DownloadedData
+db: cbr250RRi_db
+denumeration_dict: Vehicles\Honda CBR250RR\Technical\015 - ELECTRICAL SYSTEM\01_ENGINE_MANAGEMENT\LIFE_RACING_F88R\LifeView_Export_Denumeration.json
+batch_size: 10
+log_level: INFO # Valid Levels: DEBUG, INFO, WARNING, ERROR, CRITICAL
